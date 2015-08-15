@@ -11,7 +11,6 @@ describe('Notice Api test', function () {
 	it('get', function (done) {
 		this.timeout(15000);
 		notice.get(6, function (err, articles) {
-			console.log(articles.length);
 			should.not.exist(err);
 			articles.length.should.eql(6);
 			articles.forEach(function (article) {
