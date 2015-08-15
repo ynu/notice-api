@@ -1,0 +1,27 @@
+{
+  "name": "ynu-notice",
+  "version": "0.0.1",
+  "description": "云南大学主页“通知公告”栏目的API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ynu/notice-api.git"
+  },
+  "author": "",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/ynu/notice-api/issues"
+  },
+  "homepage": "https://github.com/ynu/notice-api",
+  "dependencies": {
+    "absolution": "^1.0.0",
+    "cheerio": "^0.19.0",
+    "urllib": "^2.3.11"
+  },
+  "devDependencies": {
+    "should": "^7.0.4"
+  }
+}
